@@ -1,6 +1,18 @@
+#site-wrap {
+   margin-top: 80px;
+}
 
+#menu {
+   height: 50px;
+}
 
+/*#mainMenu {
+   margin-left: 300px;
+}*/
 
+#searchBox {
+   width: 350px;
+}
 
 /* --------------------------------------
    Media Queries
