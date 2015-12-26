@@ -1,19 +1,120 @@
-#site-wrap {
-   margin-top: 80px;
-}
 
 #menu {
-   height: 50px;
+   padding: 15px;
+   box-sizing: border-box;
+   background: white;
+   font-weight: bold;
+   line-height: 1em;
+   text-transform: uppercase;
 }
 
-/*#mainMenu {
-   margin-left: 300px;
-}*/
+#mainMenu {
+   margin-left: 100px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+   background-color: #269B9E;
+   color: white;
+   border-radius: 50%/50%;
+   /*width: 100px;*/
+   /*height: 50px;*/
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+   background-color: #269B9E;
+   color: white;
+}
+
+#searchSubmit {
+   height: 35px;
+   background: #269B9E;
+   color: white;
+
+}
+
+.carousel-caption {
+   left: 0;
+   background: #269B9E;
+   opacity: .8;
+   position: absolute;
+   bottom: 0;
+   width: 40%;
+}
+
+
+
+body {
+	font-family:'Open Sans', Arial, sans-serif;
+	line-height:1.6em;
+	color:#656565;
+}
+
+#site-wrap {
+   margin-top: 50px;
+}
+
+.page-heading {
+   background-color: #269B9E;
+   margin-top: 80px;
+   height: 100px;
+}
+
+.pagetitle {
+   text-align: center;
+   padding: 10px;
+   width: 200px;
+   color:#269B9E;
+   background: white;
+   border-radius: 50%/50%;
+   font-weight: bold;
+}
+
+footer {
+   margin-top: 50px;
+   background: #363839;
+   color: #777;
+}
+
+.widget-header h5 {
+   font-size: 15px;
+   color: white;
+}
+
+.widget li {
+   list-style: none;
+}
+
+.widget ul {
+   padding: 0 2px;
+}
+
+.widget a {
+   text-decoration: none;
+   color: #777;
+}
+.widget a:hover {
+   color: white;
+}
 
 #searchBox {
-   width: 350px;
+   width: 300px;
 }
 
+#subfooter {
+   margin:0;
+   background: #2C2F2F;
+   padding: 20px 0 0 0;
+
+}
+.social-links li {
+   list-style: none;
+   display: inline;
+}
+
+.social-links img {
+   height: 30px;
+   padding-left:10px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
